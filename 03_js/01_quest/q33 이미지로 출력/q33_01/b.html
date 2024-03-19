@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>document</title>
+        <link rel="stylesheet" href="b.css">
+        <script src="common.js"></script>
+        <script src="b.js"></script>
+    </head>
+
+    <body>
+        <input id="rpc_input_text" type="text" placeholder="가위, 바위, 보 입력">
+        <!-- 유저가 입력하는 가위바위보창 -->
+        <input id="rpc_input_button" type="button" value="누르세요" onclick="rpcInputButtonClick();">
+        <!-- 유저가 입력한 창을 출력시켜주는 버튼 -->
+        <br><br>
+        <textarea id="rpc_result_screen" placeholder="결과화면"></textarea>
+        <!-- textarea는 결과화면 창 -->
+        <div id="screen">
+            <!-- 결과창을 보여주는 화면 -->
+            <div id="rpc_user">user</div>
+            <!-- 유저가 제출한 가위바위보 -->
+            <div id="rpc_vs">
+                <div id="vs_center">vs</div>
+            </div>
+            <!-- 승부 결과 출력 -->
+            <div id="rpc_com">com</div>
+            <!-- 컴퓨터가 선택한 가짓수 표현 -->
+        </div>
+    </body>
+    </html>

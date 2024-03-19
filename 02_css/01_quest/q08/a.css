@@ -1,0 +1,69 @@
+body {
+    background-color: pink;
+}
+
+#box {
+    display: flex;
+    background-color: red;
+    width: 1000px;
+    height: 800px;
+}
+
+#left {
+    background-color: orange;
+    width: 800px;
+    height: 800px;
+}
+
+#right {
+    background-color: yellow;
+    width: 200px;
+    height: 800px;
+}
+
+#left_1 {
+    background-color: blue;
+    width: 800px;
+    height: 100px;
+}
+
+#left_2 {
+    background: linear-gradient(to right bottom, yellow, white);
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+
+#left_3 {
+    background-color: purple;
+    width: 800px;
+    height: 600px;
+    display: flex;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+}
+
+#top_ba {
+    width: 600px;
+    height: 100px;
+}
+
+.meun {
+    width: 100px;
+    padding: 20px;
+}
+
+#left_meun {
+    width: 100px;
+    height: 600px;
+    background-color: aqua;
+}
+
+#content {
+    width: 700px;
+    height: 600px;
+    background-image: url('backdia.jpg');
+}

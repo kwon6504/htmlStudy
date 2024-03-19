@@ -1,0 +1,175 @@
+body {
+    background-image: url(background_1.jpg);
+}
+
+#mylayout {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    background-color: orange;
+    width: 1600px;
+    height: 120;
+    display: flex;
+}
+
+#top_left {
+    background-color: rebeccapurple;
+    width: 300px;
+    position: absolute;
+}
+
+#logo {
+    width: 100px;
+    height: 114px;
+    border-style: solid;
+    border-radius: 20%;
+    border-width: 3px;
+    border-color: black;
+    float: left;
+}
+
+#homepage_name {
+    font-size: 1.2em; font-style: italic; font-weight: 600;
+    color :whitesmoke;
+    float: left;
+    margin-top: 60px;
+}
+
+#top_banner {
+    width: 1600px;
+    height: 120px;
+    background-color: orange;    
+    text-align: center;
+}
+
+#nav {
+    background-color: gray;
+    width: 1600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maun_1 {
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#maun_2 {
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#maun_3 {
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#maun_4 {
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#maun_5 {
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#mid {
+    height : 800px;
+    display: flex;
+}
+
+#mid_left {
+    background-color: orange;
+    width : 200px;
+}
+
+#mid_mid {
+    background-image: url(phoenix.jpg);
+    width: 1200px;
+}
+
+#mid_right {
+    background-color: green;
+    width: 200px;
+}
+
+#login {
+    width: 160px;
+    height: 80px;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+    #login_id {
+        width: 80px;
+    }
+
+    #login_pw {
+        width: 80px;
+    }
+
+#board {
+    background-color: red;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;    
+}    
+
+    .board_title {
+        color:chartreuse;
+        font-size: 1.2em;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;        
+    }
+
+#proud {
+    background-color: pink;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;   
+}
+
+#bot {
+    background-color: blue; 
+    width: 1600px; height: 200px;
+    position: fixed;
+    bottom: 10px;
+
+    font-size: 0.8em;
+    color: gray; 
+}
+
+.right_banner {
+    width: 160px;    
+}

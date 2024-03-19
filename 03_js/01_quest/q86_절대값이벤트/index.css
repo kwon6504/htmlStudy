@@ -1,0 +1,41 @@
+#box{   
+    width: 600px;
+    height: 700px;
+    background-color: pink;
+}
+#top_box{   
+    width: 600px;
+    height: 100px;
+    background-color: red;
+}
+#mid_box{   
+    width: 600px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+}
+#mid_left{   
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+}
+#mid_right{   
+    width: 400px;
+    height: 500px;
+    background-color: purple;
+}
+#bot_box{   
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#popup{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    position: absolute;
+    /* 변하지 않는 위치값 */
+    top:150px;
+    left:300px;
+}

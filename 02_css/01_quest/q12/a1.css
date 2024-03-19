@@ -1,0 +1,31 @@
+a{
+    font-size: 400%;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:orange;
+}
+
+a:hover{
+    color:yellow;
+}
+
+/* 마우스로 꾹 누루고있을때 */
+a:active{
+    color:green;
+}
+
+
+
+
+input:focus{
+    background-color: pink;
+}
+
+div>p:target {
+    background-color: gray;
+}

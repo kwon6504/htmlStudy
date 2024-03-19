@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+
+    /* absolute를 부모안에 고정하기에 위해 사용 */
+    position: relative;
+}
+
+#a {
+    /* 포시션이 absolute 부모 상관없이 전체어서 수정되어 고정 */
+    position: absolute;
+    
+
+    width: 100px;
+    height: 100px;
+
+    right: 300px;
+    bottom: 50px;
+
+    background-color: orange;
+
+}

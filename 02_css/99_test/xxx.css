@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+.yyy {
+    font-size: 30px;
+    background-color: aqua;
+    color: red;
+    text-align: right;
+}
+
+#zzz {
+    background-color: blueviolet;
+}
+
+p, b {
+    background-color: aliceblue;
+    color : purple
+}
+
+img {
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 10px;
+    
+}

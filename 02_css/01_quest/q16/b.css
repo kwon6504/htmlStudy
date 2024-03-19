@@ -1,0 +1,23 @@
+body {
+    width: 1000px;
+    height: 1000px;
+    background-color: pink;
+}
+
+#x {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+#a {background-color: red;
+flex-basis: 10%;}
+#b {background-color: orange;
+flex-basis: 30%;}
+#c {background-color: yellow;
+flex-basis: 20%;}
+#d {background-color: green;
+flex-basis: 20%;}
+#e {background-color: blue;
+flex-basis: 20%;}

@@ -1,0 +1,9 @@
+img {
+    width: 100px;
+}
+
+#goldcat {
+    border-style: solid;
+    border-width: 3px;
+    border-color: gold;
+}

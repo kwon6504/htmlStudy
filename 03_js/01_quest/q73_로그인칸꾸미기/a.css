@@ -1,0 +1,11 @@
+#login_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: 300px;
+    height: 200px;
+    border: solid red 1px;
+    border-radius: 20px;
+}

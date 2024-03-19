@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <script src="common.js"> </script>
+        <script src="a.js"> </script>
+        <title>DOM</title>
+    </head>
+    <body>
+        <!-- // id	pw	를 입력 받는 폼을 만들기		 -->
+        <form>
+            id:<input id="id"> <!--type은 안적으면 기본적으로 text파일로 들어간다.-->
+            pw:<input id="pw">
+            <input type="button" onclick="login()" value="로그인">
+            <!-- onclick를 누루면 함수 login이 실행된다. -->
+        </form>
+
+    </body>
+</html>
+
+<!-- 폼(<form>): 우리가 작성할 문서 전체를 감싸고 있는 컨테이너입니다. 이 폼에는 여러가지 입력 요소들이 들어갑니다.
+
+    텍스트 입력 필드(<input type="text">): 사용자가 텍스트를 입력할 수 있는 상자입니다. 사용자 이름, 이메일, 또는 기타 정보를 받을 때 사용됩니다.
+    
+    비밀번호 입력 필드(<input type="password">): 암호를 입력 받을 때 사용되며, 입력한 글자가 가려져 나타납니다.
+    
+    라디오 버튼(<input type="radio">): 여러 옵션 중 하나를 선택할 때 사용됩니다. 남성/여성과 같이 여러 항목 중 하나만 선택할 수 있습니다.
+    
+    체크박스(<input type="checkbox">): 여러 항목 중 여러 개를 선택할 수 있습니다. 동의 여부나 여러 옵션을 선택할 때 사용됩니다.
+    
+    드롭다운 메뉴(<select>): 여러 옵션 중 하나를 선택하는데 사용되는 메뉴입니다. 국가 선택 등에 사용됩니다.
+    
+    텍스트 에어리어(<textarea>): 여러 줄의 텍스트를 입력 받을 때 사용됩니다. 긴 글이나 메모 등을 받을 때 유용합니다.
+    
+    제출 버튼(<button type="submit">): 사용자가 폼을 작성한 후 제출할 때 사용되는 버튼입니다. 버튼을 클릭하면 입력한 정보들이 서버로 전송됩니다.
+    
+    이러한 HTML 폼은 웹 페이지에서 사용자로부터 정보를 입력받고, 그 정보를 서버로 전송하여 처리하는 데에 사용됩니다. -->

@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+}
+
+img {
+    /* 폭을	300px 로
+높이를	500px 로*/
+width: 300px;
+height: 500px;
+}
+/* div 태그의 배경색을 핑크로 설정하기 */
+div{
+    background-color: pink;
+}

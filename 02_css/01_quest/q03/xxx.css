@@ -1,0 +1,11 @@
+#xxx {
+    border: 10px dashed red;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}

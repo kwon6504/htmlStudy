@@ -1,0 +1,29 @@
+body {
+    width: 1000px;
+    height: 1000px;
+    background-color: pink;
+}
+
+#x {
+    display: flex;
+    /* 기본이 x 축 */
+    flex-direction: row;
+    width: 1000px;
+    height: 100px;
+}
+
+/* .z {
+    width: 100px;
+    height: 100px;
+} */
+
+#a {background-color: red;
+flex-basis: 10%;}
+#b {background-color: orange;
+flex-basis: 30%;}
+#c {background-color: yellow;
+flex-basis: 20%;}
+#d {background-color: green;
+flex-basis: 20%;}
+#e {background-color: blue;
+flex-basis: 20%;}

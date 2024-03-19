@@ -1,0 +1,43 @@
+#rpc_result_screen {
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+} 
+/* 결과창 크기와 배경 색깔 */
+#screen {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1fr 1fr 1fr;
+    height: 400px;
+}
+/* 결과창 죄측으로 1:1:1 비율로 출력 */
+#rpc_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    
+}
+
+#rpc_vs{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /* background-color: gray; */
+}
+
+#rpc_com {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+img {
+    width: 200px;
+    height: 400px;
+}
